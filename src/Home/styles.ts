@@ -7,7 +7,7 @@ export const styles = StyleSheet.create({
     paddingTop: 24
   },
   scroll: {
-    paddingBottom: 50
+    paddingBottom: 150
   },
   picture: {
     backgroundColor: '#FFF',
@@ -27,9 +27,19 @@ export const styles = StyleSheet.create({
     alignItems: 'center'
   },
   name: {
-    fontSize: 22,
+    fontSize: 20,
     fontWeight: '900',
     color: '#000',
     textTransform: 'uppercase'
+  },
+  sticker: {
+    backgroundColor: "#373D98"
+  },
+  retry: {
+    color: "#FFF",
+    fontWeight: "bold",
+    alignSelf: "center",
+    marginTop: 22,
+    marginBottom: 10
   }
 });
